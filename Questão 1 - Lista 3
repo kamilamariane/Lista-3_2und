@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(){  
+int soma=0; //soma
+int i; //contador 
+
+for(i=0; i<=100; i++){
+  //soma = i + soma;
+  //or
+  soma+=i;
+}
+printf(" A soma é %d", soma);
+ return 0;
+ }
