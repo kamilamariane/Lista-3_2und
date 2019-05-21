@@ -2,23 +2,22 @@
 #include <stdlib.h>
 
 int main(){
-  int vetor[10];
-  int x, i;
+  int numero[10]; //entradas do usuario
+  int i; //contador
   
-  printf ("digite 10 numeros\n");
-
-  for (i = 0; i <10; i++)   /*Este laco faz o scan de cadaelemento do vetor*/
+  printf ("digite 10 numeros:\n");
+  for (i = 0; i <10; i++)   /*Este laco faz o scan de cada elemento do vetor*/
    {
-     scanf("%d", &vetor[i]);
+     scanf("%d", &numero[i]);
   }
- i = 1;
- //x = vetor[0];
-printf(" os numeros no intervalo [10,50] são:\n");
+ i = 0;
+ 
+printf("Os numeros no intervalo [10,50] são:\n");
  while(i<10){ 
- if(vetor[i]<=50 && vetor[i]>=10){
-     printf("%d\n", vetor[i]);
+ if(numero[i]<=50 && numero[i]>=10){
+     printf("%d\n", numero[i]);  
  }
- i++;
+i++;
  }
  return 0;
 }
