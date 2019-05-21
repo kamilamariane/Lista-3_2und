@@ -1,0 +1,47 @@
+#include<stdio.h> 
+#include<stdlib.h>  
+
+int main()
+{
+      int primo=0,n;
+      int i,eh_primo,negativo;
+      int n6,n12;           
+     
+      n=6;
+      negativo=n*(-1);
+      do         //Inicio do bloco de repetição
+      {  primo++;         
+         eh_primo=0;
+         for(i=1;i<primo;i++)
+             if(primo%i==0)
+             eh_primo++;
+         if(eh_primo==1){
+             
+             negativo++;
+                 }
+      }while(negativo!=0);
+      n6=primo;
+      printf ("%d é o sexto numero primo\n",n6);
+
+      //segunda parte
+      n=6;
+      negativo=n*(-1);
+     
+      do         //Inicio do bloco de repetição
+      {  primo++;         
+         eh_primo=0;
+         for(i=1;i<primo;i++)
+             if(primo%i==0)
+             eh_primo++;
+         if(eh_primo==1){
+            
+             negativo++;
+                 }
+      }while(negativo!=0);
+      n12=primo;
+
+      printf ("%d é o decimo segundo numero primo\n",n12); 
+      printf("A subtração %d - %d é igual a %d",n12,n6,n12-n6);     
+
+return(0);        
+}   
