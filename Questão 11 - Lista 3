@@ -3,7 +3,7 @@
 
 int main(){
 int num; //entrada do usuario
-int i;
+int i; //contador
 int primo=1;
 
 printf("Insira um numero inteiro: "); scanf("%d", &num);
