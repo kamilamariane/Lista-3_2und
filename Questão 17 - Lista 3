@@ -10,9 +10,9 @@ float celsius_to_farenheit(float c){
 int main(){
 float c;
 float result;
-printf("digite o valor da temperatura em Celsius\n");
+printf("Insira o valor da temperatura em Celsius\n");
 scanf("%f",&c);
 result = celsius_to_farenheit(c);
-printf("%.1f em celsius equivale à %.1f em farenheit", c,result);
+printf("%.1f em Celsius equivale à %.1f em Farenheit", c,result);
 return 0;
 }
