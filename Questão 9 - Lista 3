@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+ int num[20]; //vetor p receber e guardar valores
+ int soma=0;
+ int i; //contador
+ int j=0; //outro contador
+
+ for (i=13; i<=73; i++) {
+if( i % 2 == 0)
+  {
+  soma+=i;
+  j++;
+   }
+}
+printf("A media dos numeros pares num intervalo [13,73] é : %d\n", soma/j) ;
+printf("O total de pares no intervalo é %d", j);
+ return 0;
+}
