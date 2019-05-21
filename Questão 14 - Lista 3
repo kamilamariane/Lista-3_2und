@@ -6,7 +6,7 @@ int main(){
  int num[20]; //vetor p receber e guardar valores
  srand(time(NULL));
  int i; //contador
-
+printf ("Os seguintes 20 números aleatorios entre 1000 e 1999 quando divididos por 11 dão um resto igual a 5:\n");
 for(i=0;i<200; i++)
 {
  num[i]= 1000 + rand() % 1000;
