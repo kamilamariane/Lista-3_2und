@@ -5,13 +5,13 @@
 
 int main(){
 char texto[30]; 
-int tam; //Contador
-int i;
+int tam; 
+int i; //contador
 
 printf("Digite um texto: ");
-gets(texto); //usar fgets eu avho q ta errado gets
+fgets(texto,30,stdin); 
 tam = strlen(texto);
-printf("o texto inserido de tras pra frente é : ");
+printf("\nO texto inserido de tras pra frente é : ");
 for(i=tam; i>=0; i--){
   printf("%c",texto[i]);
  
