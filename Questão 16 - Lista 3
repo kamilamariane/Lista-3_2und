@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+
+int main(){
+char texto[30]; 
+int tam; //Contador
+int i;
+
+printf("Digite um texto: ");
+gets(texto); //usar fgets eu avho q ta errado gets
+tam = strlen(texto);
+printf("o texto inserido de tras pra frente é : ");
+for(i=tam; i>=0; i--){
+  printf("%c",texto[i]);
+ 
+}
+ return 0;
+}
