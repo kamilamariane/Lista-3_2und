@@ -17,7 +17,7 @@ printf("Entre com os valores a e b para um intervalo [a,b]\n: ");
 scanf("%d%d",&a,&b);
 
 c = aleatorio(a,b);
-printf("inteiro pseudo-aleatorio entre o intervalo [%d,%d]: %d\n",a,b,c);
+printf("Inteiro pseudo-aleatorio entre o intervalo [%d,%d]: %d\n",a,b,c);
 
 return 0;
 }
