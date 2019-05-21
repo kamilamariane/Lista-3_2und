@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+//questao 15
+
+int main(){
+char texto[100]; 
+int tam; 
+int i;//Contador
+int j=0; //outro contador
+
+
+printf("Digite um texto: ");
+scanf("%[^\n]",texto);
+tam = strlen(texto);
+
+for(i=tam; i>=0; i--){
+  if(texto[i]=='a'){
+    j++; 
+  }
+}
+printf("\n No texto existem %d 'a' caracteres", j);
+
+}
