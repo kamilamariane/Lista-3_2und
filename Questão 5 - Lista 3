@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main(){  
+long int fat; 
+int n; //numero que o usuario entra
+
+
+printf(" Digite um num: "); scanf(" %d", &n);
+
+ for(fat = 1; n > 1; n = n - 1){
+      fat = fat * n;
+
+}
+printf(" %li", fat);
+ return 0;
+ }
