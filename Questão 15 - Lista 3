@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <string.h>
-//questao 15
 
 int main(){
 char texto[100]; 
 int tam; 
-int i;//Contador
-int j=0; //outro contador
+int i;//Contador1
+int j=0; //Contador2
 
 
 printf("Digite um texto: ");
@@ -18,6 +17,6 @@ for(i=tam; i>=0; i--){
     j++; 
   }
 }
-printf("\n No texto existem %d 'a' caracteres", j);
+printf("\n No texto existem %d caracteres equivalentes a 'a'", j);
 
 }
