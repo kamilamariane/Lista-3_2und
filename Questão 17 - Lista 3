@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include <math.h>
+
+float celsius_to_farenheit(float c){
+  float f;
+ f = 1.8 * c + 32;
+ return f;
+}
+
+int main(){
+float c;
+float result;
+printf("digite o valor da temperatura em Celsius\n");
+scanf("%f",&c);
+result = celsius_to_farenheit(c);
+printf("%.1f em celsius equivale à %.1f em farenheit", c,result);
+return 0;
+}
