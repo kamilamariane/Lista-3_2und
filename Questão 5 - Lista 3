@@ -7,7 +7,7 @@ int n; //numero que o usuario entra
 
 printf(" Digite um num: "); scanf(" %d", &n);
 
- for(fat = 1; n > 1; n = n - 1){
+ for(fat = 1; n > 1; n--){
       fat = fat * n;
 
 }
