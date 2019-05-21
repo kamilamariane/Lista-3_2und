@@ -1,0 +1,17 @@
+//questao 3
+#include<stdio.h>
+
+int main(){  
+int divfour=0; 
+int x; //contador 
+//logica:4x<100
+//x<100/4
+//x<25
+//x=24
+for(x=1; x<=24; x++){
+divfour = x * 4;
+printf(" %d\n", divfour);
+}
+
+ return 0;
+ }
