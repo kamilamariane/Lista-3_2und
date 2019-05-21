@@ -1,26 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//questao 11
-
 int main(){
-int x; //numero lido
+int num; //entrada do usuario
 int i;
-int primo;
-primo=1; //supondo q seja primo
+int primo=1;
 
-printf("Digite um numero\n"); scanf("%d", &x);
-for(i=2; i<=x-1 ; i++){
-  if( x%i == 0){
+printf("Insira um numero inteiro: "); scanf("%d", &num);
+for(i=2; i<=num-1 ; i++){
+  if( num%i == 0){
      primo=0;
   }
  }
  
 if(primo==0){
-  printf("%d não é primo", x);
+  printf("%d não é um numero primo\n", num);
 }
 else{
-  printf("%d é primo", x);
+  printf("%d é um numero primo\n", num);
 }
  return 0;
 }
