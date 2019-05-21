@@ -2,12 +2,12 @@
 
 int main(){  
 int divnum; 
-int num; //numero que o usuario entra
+int num; //entrada do usuario
 int i; //contador 
 
-printf(" Digite um num: "); scanf(" %d", &num);
+printf("Insira um numero: "); scanf(" %d", &num);
 
-for( i=1; i<=num; i++){
+for(i=1; i<=num; i++){
   if( num % i == 0){
     printf (" %d\n", i);
   }
