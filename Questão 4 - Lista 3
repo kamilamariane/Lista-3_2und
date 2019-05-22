@@ -1,18 +1,18 @@
 #include<stdio.h>
 
 int main(){  
-int divnum; 
-int num; //entrada do usuario
-int i; //contador 
-
-printf("Insira um numero: "); scanf(" %d", &num);
-printf ("Os divisores de %d são:\n", num);
-
-for(i=1; i<=num; i++){
-  if( num % i == 0){
-    printf (" %d\n", i);
-  }
-}
-
- return 0;
+    int divnum; 
+    int num; //entrada do usuario
+    int i; //contador 
+    
+    printf("Insira um numero: "); scanf(" %d", &num);
+    printf ("Os divisores de %d são:\n", num);
+    
+    for(i=1; i<=num; i++){
+        if( num % i == 0){
+            printf (" %d\n", i);
+        }
+    }
+    
+    return 0;
 }
