@@ -38,7 +38,7 @@ int main(int argc, char * argv[]) {
   //imprimindo repetidos
   for (i = 14; i < 255; i++) { //começa em 14 pra não pegar o enter do teclado na ASCII
     if (ascii[i] >= 1) { //verificar se e maior quer 1 pois não a necessidade de imprimir 1 ou 0 vezes! 
-      printf("\nO caracter %c repetiu %d vezes na frase que voce escreveu!\n", i, ascii[i]);
+      printf("\nO caracter '%c' repetiu %d vezes na frase que voce escreveu!\n", i, ascii[i]);
     }
   }
   return 0;
