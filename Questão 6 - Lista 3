@@ -1,20 +1,20 @@
 #include<stdio.h>
 
 int main(){  
-int L; //entrada do usuario
-int num,mult;
-
-num=0;
-
-printf ("Insira o numero L desejado: ");
-scanf ("%d",&L);
-
-do {
-  num = num+1;
-  mult = num*num;
-} while (mult<L);
-
-printf ("o menor numero inteiro positivo cujo quadrado é superior a %d é %d",L,num);
-
- return 0;
- }
+    int L; //entrada do usuario
+    int num,mult;
+    
+    num=0;
+    
+    printf ("Insira o numero L desejado: ");
+    scanf ("%d",&L);
+    
+    do {
+        num = num+1;
+        mult = num*num;
+    } while (mult<L);
+    
+    printf ("o menor numero inteiro positivo cujo quadrado é superior a %d é %d",L,num);
+    
+    return 0;
+}
