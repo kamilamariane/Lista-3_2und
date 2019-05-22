@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(int argc, char * argv[]) {
+  char frase[100];
+  int frasebaixa[100];
+  int ascii[255];
+  int i;
+
+  printf("\nDigite uma frase: ");
+  fgets(frase, 255, stdin);
+
+  //Zerando Tabela ASCII
+  for (i = 0; i < 255; i++) {
+    ascii[i] = 0;
+  }
+
+  //Transformando carcteres de frase em inteiros (ASCII)
+  for (i = 0; i < strlen(frase); i++) {
+    frasebaixa[i] = frase[i];
+  }
+
+  //transformando caracteres caixa alta para caixa baixa
+  for (i = 0; i < strlen(frase); i++) {
+    if (frasebaixa[i] > 64 && frasebaixa[i] < 91) {
+      frasebaixa[i] = frasebaixa[i] + 32;
+    }
+  }
+
+  //contar quantidades de vezes
+  for (i = 0; i < strlen(frase); i++) { //rodo por todas as letras 
+    if (frasebaixa[i] != 32) { // retirar espaços da contagem
+      ascii[frasebaixa[i]]++;
+    } /* Guardando quantidade de vezes que a letras se repete*/
+  }
+
+  //imprimindo repetidos
+  for (i = 14; i < 255; i++) { //começa em 14 pra não pegar o enter do teclado na ASCII
+    if (ascii[i] >= 1) { //verificar se e maior quer 1 pois não a necessidade de imprimir 1 ou 0 vezes! 
+      printf("\nO caracter %c repetiu %d vezes na frase que voce escreveu!\n", i, ascii[i]);
+    }
+  }
+  return 0;
+}
