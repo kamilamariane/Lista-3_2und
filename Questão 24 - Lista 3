@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+//questao 24 CONSEGUI NAO
+char reverse[50](char text){
+int i, tam;
+tam = strlen(reverso);
+for(i=tam-1; i>=0, i--){
+  reverso[50]=reverso[i];
+ }
+  return reverso;
+}
+
+int main(){
+char texto[50]; 
+char reverse;
+
+printf("Digite um texto: ");
+gets(texto); //usar fgets eu avho q ta errado gets
+puts(texto);
+reverse = (texto);
+puts(texto);
+ return 0;
+}
