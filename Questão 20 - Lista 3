@@ -22,8 +22,7 @@ printf ("A decomposição de %d em fatores primos é: ",n);
         {
           mult ++;
           n = n / fator; 
-          printf ("x");
-          printf (" %d ",fator);
+          printf ("x %d ",fator);
           
         }
       
