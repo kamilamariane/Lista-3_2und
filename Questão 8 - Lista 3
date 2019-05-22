@@ -7,11 +7,11 @@ int main()
     printf("\nInsira o numero da tabuada desejada: ");
     scanf("%d", &tabuada);
     printf("A tabuada do %d é: \n",tabuada);
-
+    
     for(int x = 1; x<=10; ++x){
         //1 x 5 = 5
         printf("%dx%d = %d\n", x, tabuada, x * tabuada);
     }
-
+    
     return 0;
 }
