@@ -3,18 +3,18 @@
 
 int main()
 {
- int num[20]; //vetor p receber e guardar valores
- int soma=0;
- int i; //contador numeros
- int j=0; //contador quantidade
-
- for (i=13; i<=73; i++) {
-if(i % 2 == 0)
-  {
-  soma+=i;
-  j++;
-   }
-}
-printf("A media dos numeros pares no intervalo [13,73] é %d\n", soma/j);
- return 0;
+    int num[20]; //vetor p receber e guardar valores
+    int soma=0;
+    int i; //contador numeros
+    int j=0; //contador quantidade
+    
+    for (i=13; i<=73; i++) {
+        if(i % 2 == 0)
+        {
+            soma+=i;
+            j++;
+        }
+    }
+    printf("A media dos numeros pares no intervalo [13,73] é %d\n", soma/j);
+    return 0;
 }
