@@ -4,17 +4,17 @@
 
 
 int main(){
-char texto[30]; 
-int tam; 
-int i; //contador
-
-printf("Digite um texto: ");
-fgets(texto,30,stdin); 
-tam = strlen(texto);
-printf("\nO texto inserido de tras pra frente é : ");
-for(i=tam; i>=0; i--){
-  printf("%c",texto[i]);
- 
-}
- return 0;
+    char texto[30]; 
+    int tam; 
+    int i; //contador
+    
+    printf("Digite um texto: ");
+    fgets(texto,30,stdin); 
+    tam = strlen(texto);
+    printf("\nO texto inserido de tras pra frente é : ");
+    for(i=tam; i>=0; i--){
+        printf("%c",texto[i]);
+        
+    }
+    return 0;
 }
