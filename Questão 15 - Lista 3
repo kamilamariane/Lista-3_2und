@@ -2,21 +2,21 @@
 #include <string.h>
 
 int main(){
-char texto[100]; 
-int tam; 
-int i;//Contador1
-int j=0; //Contador2
-
-
-printf("Digite um texto: ");
-scanf("%[^\n]",texto);
-tam = strlen(texto);
-
-for(i=tam; i>=0; i--){
-  if(texto[i]=='a'){
-    j++; 
-  }
-}
-printf("\n No texto existem %d caracteres equivalentes a 'a'", j);
-
+    char texto[100]; 
+    int tam; 
+    int i;//Contador1
+    int j=0; //Contador2
+    
+    
+    printf("Digite um texto: ");
+    scanf("%[^\n]",texto);
+    tam = strlen(texto);
+    
+    for(i=tam; i>=0; i--){
+        if(texto[i]=='a'){
+            j++; 
+        }
+    }
+    printf("\n No texto existem %d caracteres equivalentes a 'a'", j);
+    
 }
