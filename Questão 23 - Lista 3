@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <string.h>
+
+
+int main(){
+char texto[30]; 
+int tam; 
+int i;//Contador
+int j=0; //outro contador
+
+printf("Digite um texto: ");
+scanf("%[^\n]",texto); 
+tam = strlen(texto);
+
+for(i=tam; i>=0; i--){
+  if(texto[i]==' '){
+    j++;
+  }
+}
+printf("\no texto tem %d caracteres",tam - j );
+printf("\no texto tem %d palavras", j + 1);
+
+return 0;
+}
