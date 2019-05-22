@@ -2,22 +2,22 @@
 #include <stdlib.h>
 
 int main(){
-int num; //entrada do usuario
-int i; //contador
-int primo=1;
-
-printf("Insira um numero inteiro: "); scanf("%d", &num);
-for(i=2; i<=num-1 ; i++){
-  if( num%i == 0){
-     primo=0;
-  }
- }
- 
-if(primo==0){
-  printf("%d não é um numero primo\n", num);
-}
-else{
-  printf("%d é um numero primo\n", num);
-}
- return 0;
+    int num; //entrada do usuario
+    int i; //contador
+    int primo=1;
+    
+    printf("Insira um numero inteiro: "); scanf("%d", &num);
+    for(i=2; i<=num-1 ; i++){
+        if( num%i == 0){
+            primo=0;
+        }
+    }
+    
+    if(primo==0){
+        printf("%d não é um numero primo\n", num);
+    }
+    else{
+        printf("%d é um numero primo\n", num);
+    }
+    return 0;
 }
