@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main()
+{
+  int n;       /* numero dado */
+  int fator;   /* candidato a fator do numero dado */
+  int mult;    /* multiplicidade de fator */
+
+
+printf ("Insira um numero:");
+scanf ("%d", &n);
+printf ("A decomposição de %d em fatores primos é: ",n);
+  
+    
+  fator = 2;
+  
+  while (n > 1) 
+    {
+      mult = 0;
+      
+      while (n % fator == 0) 
+        {
+          mult ++;
+          n = n / fator; 
+          printf ("x");
+          printf (" %d ",fator);
+          
+        }
+      
+      fator++; 
+      
+    }
+    
+
+  return 0;
+}
