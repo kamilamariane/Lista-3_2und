@@ -1,3 +1,3 @@
 # programas2und
 
-Dupla dinâmica formada por Kamila e Nathan para a matéria Algoritmos e Logica de Programação.
+Dupla formada por Kamila Mariane e Nathan Souza para a matéria Algoritmos e Logica de Programação.
