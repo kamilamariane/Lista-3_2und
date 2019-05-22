@@ -1,15 +1,15 @@
 #include<stdio.h>
 
 int main(){  
-long int fat; 
-int n; //entrada do usuario
-
-printf("Insira um numero: "); scanf("%d", &n);
-
-
- for(fat = 1; n > 1; n--) {
-      fat = fat * n;
- }
-printf("o fatorial do numero inserido vale %li", fat);
- return 0;
- }
+    long int fat; 
+    int n; //entrada do usuario
+    
+    printf("Insira um numero: "); scanf("%d", &n);
+    
+    
+    for(fat = 1; n > 1; n--) {
+        fat = fat * n;
+    }
+    printf("o fatorial do numero inserido vale %li", fat);
+    return 0;
+}
