@@ -1,19 +1,19 @@
 #include<stdio.h>
 
 int main(){  
-int multseven=0; 
-int x; //contador 
-
-/*logica:7x<200
-x<200/7
-200/7=28,57...
-x=28 */
-printf ("Os multiplos de 7 menores que 200 são:\n");
-
-for(x=0; x<=28; x++){
-multseven = x * 7;
-printf(" %d\n", multseven);
+    int multseven=0; 
+    int x; //contador 
+    
+    /*logica:7x<200
+    x<200/7
+    200/7=28,57...
+    x=28 */
+    printf ("Os multiplos de 7 menores que 200 são:\n");
+    
+    for(x=0; x<=28; x++){
+        multseven = x * 7;
+        printf(" %d\n", multseven);
+    }
+    
+    return 0;
 }
-
- return 0;
- }
